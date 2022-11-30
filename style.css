@@ -1,0 +1,370 @@
+/*Nav menu on index page*/
+.overlay {
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #91815e;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Barlow', sans-serif;
+  font-weight: bolder;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #000000;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+.hamburger{
+  font-size:60px;
+  cursor: pointer;
+  color:#e7e1cf;
+}
+
+.hamburger:hover{
+  color: #000000;
+}
+
+.indexLink a:hover{
+  color: #000000;
+}
+
+ /**/
+
+ /*Centers the logo on indexpage*/
+
+.centeredHeading{
+    position: absolute;
+    text-align: center; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75px;
+    filter: drop-shadow(-4px 3px 4px #000000);
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color: #e7e1cf;
+      
+}
+
+body{
+  background-color: #ddd6d0;
+}
+
+p{
+  font-family: Barlow;
+  font-weight: bold;
+}
+
+h2{
+  color: #91815e;
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 35px;
+}
+
+h3 {
+  color: #91815e;
+  font-family: 'Barlow', sans-serif;
+  text-align: center;
+}
+
+h4{
+  color: #91815e;
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+/*Bootstrap-container for index-page*/
+
+.bg-1{
+  background-image: url(img/booktable.jpg);
+  background-size: cover;
+  height: 100vh;
+ 
+}
+
+/*Bootstrap-container for all other pages*/
+
+.bg-2{
+  background-color: #ddd6d0;
+
+}
+
+/*Bootstrap-container for footer*/
+.bg-5{
+  background-color: #ddd6d0;
+  color: #91815e;
+  font-family: Barlow;
+  font-weight: bold;
+}
+
+
+/*Navbar on all pages except from index-page*/
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: #000000;
+  height: 300px;
+  background-image: url(img/bakgrund5.jpg);
+  font-family: Barlow;
+  font-weight: bolder;
+}
+
+
+.navbar-nav  li a:hover {
+  color: #ffffff !important;
+}
+
+.navbar-brand{
+  font-family: 'Dancing Script', cursive;
+  font-weight: lighter;
+  font-size: 45px;
+  color: #91815e;
+}
+
+.navbar-toggler-icon{
+  font-size: 20px;
+  border: none;
+  color: #91815e;
+}
+
+/**/
+
+a.btn{
+  color: #000000;
+  border-radius: 5px;
+  background-color:#91815e;
+  opacity: 70%;
+  font-weight: bold;
+}
+
+
+a.btn:hover{
+  background-color: #ddd6d0;
+  color: #000000;
+}
+
+
+/*Containers for content*/
+.divFood{
+  border: solid #91815e 1px;
+  width: 80%;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  background-color: #ffff;
+  text-align: center;
+  border-radius: 5px; 
+}
+
+/*Containers for content*/
+.divBook{
+  border: solid #91815e 1px;
+  width: 80%;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  background-color: #ffff;
+  text-align: center;
+  border-radius: 5px; 
+}
+
+/*Containers for content*/
+.divContact{
+  border: solid #91815e 1px;
+  width: 80%;
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:10px;
+  background-color: #ffff;
+  text-align: center;
+  border-radius: 5px; 
+}
+
+/*Containers for content*/
+.divConfirmation{
+    border: solid #91815e 1px;
+    width: 80%;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    background-color: #ffff;
+    text-align: left;
+    border-radius: 5px; 
+}
+
+
+/*Styles hr-tag*/
+.line{
+  border-top: solid #91815e 1px;
+  width: 80%;
+  margin: auto;
+}
+
+/*Style for booking form*/
+.form-control{
+  padding-bottom: 5px;
+  background-color: #ffffff;
+  border: none;
+  display: block;
+  
+
+}
+
+#Namn, #Email, #Antal, #Datum, #bio{
+  border-radius: 5px;
+  opacity: 50%;
+  border:#91815e solid 2px; 
+  padding: 5px
+  
+}
+
+label{
+  margin-top: 5px;
+  display: block;
+  border: none;
+  font-family: Barlow;
+  font-weight: bold;
+}
+
+input, textarea {
+  border-radius: 5px;
+  border:rgb(0, 0, 0) solid 1px; 
+}
+
+
+button{
+  margin: 15px;
+  color: #000000;
+  background-color: #91815e;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 150px;
+  font-family: Barlow;
+  opacity: 70%;
+}
+
+button:hover{
+  background-color:#ddd6d0;
+}
+
+
+#error{
+  color: red;
+}
+
+/**/
+
+
+/*Style for images*/
+.seafood{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.apple{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.cabbage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.radish{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/**/
+
+/*Makes the map responsive*/
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:40%;
+  position:relative;
+  height:0;
+}
+
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
+
+/*Styles link back to booking page from thank you page*/
+.backtobooking{
+  text-decoration: none;
+  font-family: Barlow;
+  font-weight: bold;
+  border-radius: 5px;
+  opacity: 70%;
+  background-color: #91815e;
+  color: #000000;
+  padding: 10px;
+}
+
+.backtobooking:hover{
+  background-color: #ddd6d0;
+  color: #000000;
+}
+/**/
